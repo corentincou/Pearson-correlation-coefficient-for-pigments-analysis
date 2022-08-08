@@ -9,7 +9,7 @@ import numpy as np
 import spectral.io.envi as envi
 from os import path
 import cv2
-import csv
+import pandas as pd 
 import matplotlib.pyplot as plt
 
 # --------------------------------------------------
@@ -220,7 +220,5 @@ plt.legend()
 # --------------------------------------------------        
 # Save the reference spectra as a dictionnary
 dictionnary = {label[i]: spectra[i] for i in range(len(spectra))}
-with open(name+'.csv', 'w') as f:
-    for key in dictionnary.keys():
-        f.write("%s, %s\n" % (key, dictionnary[key]))
-
+df = pd.DataFrame.from_dict(dictionnary, orient='index')
+df.to_csv (name+'.csv', index = True, header=False)
