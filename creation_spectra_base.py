@@ -51,7 +51,6 @@ if big =='yes':
         file1.close()
         
         
-        #dark_file = open(filename+'array_dark.txt',"r")
         dark_nparr = np.array(envi.open(filename+"DARKREF_"+img_nbr+".hdr", filename+"DARKREF_"+img_nbr+".raw").load())
         print(np.min(dark_nparr))
         dark_val = []
