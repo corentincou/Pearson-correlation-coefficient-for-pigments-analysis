@@ -1,6 +1,9 @@
 # Pearson correlation coefficient reduction (PCCR) for pigments and dyes analysis
 Python Implementation of our dimensionnality reduction method for hyperspectral imaging based on Pearson correlation coefficient.
 
+> More information in our presentation at Technart 2023 (paper in processing):     
+> *Pearson correlation-based method on hyperspectral images for the study of similarity of pigments and dyes*
+
 ## Prerequise
 
 Install the list below : 
