@@ -33,7 +33,7 @@ obtained on the PCCR values.
 On the bottom left, you can see which of the pixels are on the cluster you click on.
 On the bottom righ, the mean spectrum is visible.
 
-## Second part: Pigments comparison
+## Third part: Pigments comparison
 This notebook is used to illustrate the results we get with the Iznik tiles comparison. 
 All the pipeline is visible here and 3 different visualisations are presented : 
 - a PCA
