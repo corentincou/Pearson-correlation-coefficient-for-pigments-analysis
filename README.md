@@ -33,7 +33,7 @@ obtained on the PCCR values.
 On the bottom left, you can see which of the pixels are on the cluster you click on.
 On the bottom righ, the mean spectrum is visible.
 
-For some tests, the database spectra were generously provided by Hortense de la Codre [1]
+For some tests, the database spectra presented here is generously provided by Hortense de la Codre [1].
 
 ## Third part: Pigments comparison
 This notebook is used to illustrate the results we get with the Iznik tiles comparison. 
