@@ -46,7 +46,7 @@ You can compare the results you obtain with our results.
 
 Contact informations 
 -------
-- Corentin Cou <corentin.cou@institutoptique.fr>
+- Corentin Cou <corentin.cou@inria.fr>
 
 
 License
